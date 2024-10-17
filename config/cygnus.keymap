@@ -168,7 +168,5 @@
                           &none              &none         &kp LSHFT         &none              &none         &none         &none         &none
             >;
         };
-            >;
-        };
     };
 };
