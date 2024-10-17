@@ -122,9 +122,9 @@
         layer_0 {
             bindings = <
 &lt 3 ESC             &kp Q  &kp W      &kp E      &kp R            &kp T      &kp Y       &kp U        &kp I      &kp O      &kp P     &mt LEFT_SHIFT MINUS
-&mt LEFT_SHIFT ENTER  &kp A  &kp S      &kp D      &kp F            &kp G      &kp H       &kp J        &kp K      &kp L      &kp SEMI  &kp SQT
+&kp ENTER             &kp A  &kp S      &kp D      &kp F            &kp G      &kp H       &kp J        &kp K      &kp L      &kp SEMI  &kp SQT
 &kp CAPS              &kp Z  &kp X      &kp C      &kp V            &kp B      &kp N       &kp M        &kp COMMA  &kp DOT    &kp FSLH  &kp BSLH
-                             &kp LC(C)  &kp LC(V)  &lt 2 LEFT       &kp SPACE  &kp BSPC    &lt 1 RIGHT  &kp LBKT   &kp RBKT
+                             &kp LC(C)  &kp LC(V)  &lt 1 LEFT       &kp SPACE  &kp BSPC    &lt 2 RIGHT  &kp LBKT   &kp RBKT
                              &kp GRAVE  &kp LALT   &mt LCTRL LSHFT  &lt 3 DEL  &kp UP      &kp EQUAL    &kp DOWN   &kp RCTRL
             >;
         };
@@ -141,21 +141,33 @@
 
         layer_2 {
             bindings = <
-&kp C_VOL_UP  &kp C_VOL_DN  &kp AMPS  &kp STAR   &kp LPAR   &kp RPAR   &kp A  &none     &kp UP    &none      &none  &none
-&kp C_BRI_UP  &kp C_BRI_DN  &kp DLLR  &kp PRCNT  &kp CARET  &kp UNDER  &none  &kp LEFT  &kp DOWN  &kp RIGHT  &none  &none
-&none         &kp GRAVE     &kp EXCL  &kp AT     &kp HASH   &kp EQUAL  &none  &none     &none     &none      &none  &none
-                            &none     &none      &kp C_RW   &kp C_FF   &none  &none     &none     &none
-                            &none     &none      &kp LSHFT  &none      &none  &none     &none     &none
+&none                     &kp NUMBER_1    &kp NUMBER_2       &kp NUMBER_3      &kp NUMBER_4   &kp NUMBER_5  &kp NUMBER_6    &kp NUMBER_7   &kp NUMBER_8   &kp NUMBER_9   &kp NUMBER_0  &bt BT_CLR
+&sys_reset                &none           &none              &none             &none          &out OUT_USB  &out OUT_USB    &none          &none          &none          &none         &sys_reset
+&dongle_bootload_macro    &none           &none              &none             &none          &out OUT_BLE  &out OUT_BLE    &none          &none          &none          &none         &none
+                          &none           &none              &none             &none          &none         &none           &none          &none
+                          &none           &none              &none             &none          &none         &none           &none          &none
             >;
         };
 
         layer_3 {
             bindings = <
+&kp C_VOL_UP  &kp C_VOL_DN  &kp AMPS  &kp STAR   &kp LPAR   &kp RPAR   &none  &msc SCRL_UP    &mmv MOVE_UP    &msc SCRL_DOWN     &none  &none
+&kp C_BRI_UP  &kp C_BRI_DN  &kp DLLR  &kp PRCNT  &kp CARET  &kp UNDER  &none  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT    &none  &none
+&none         &kp GRAVE     &kp EXCL  &kp AT     &kp HASH   &kp EQUAL  &none  &msc SCRL_LEFT  &none           &msc SCRL_RIGHT    &none  &none
+                            &none     &none      &mkp LCLK  &mkp RCLK  &none  &none           &none           &none
+                            &none     &none      &mkp MCLK  &none      &none  &none           &none           &none
+            >;
+        };
+
+        layer_4 {
+            bindings = <
 &none                     &bt BT_SEL 0  &bt BT_SEL 1       &bt BT_SEL 2      &bt BT_SEL 3       &bt BT_CLR    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR
 &sys_reset                &none         &none              &none             &none              &out OUT_USB  &out OUT_USB  &none         &none         &none         &none         &sys_reset
 &dongle_bootload_macro    &none         &none              &none             &none              &out OUT_BLE  &out OUT_BLE  &none         &none         &none         &none         &none
-                          &none              &none             &none              &none         &none         &none         &none         &none
-                          &none              &none             &none              &none         &none         &none         &none         &none
+                          &none         &none              &kp C_RW          &kp C_FF           &none         &none         &none         &none
+                          &none              &none         &kp LSHFT         &none              &none         &none         &none         &none
+            >;
+        };
             >;
         };
     };
