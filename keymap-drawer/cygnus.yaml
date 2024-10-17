@@ -38,9 +38,9 @@ layers:
   - {t: \, s: '|'}
   - Ctl+ C
   - Ctl+ V
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:keyboard-space$$
   - {t: '$$mdi:arrow-left-bold$$', h: '2'}
+  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:arrow-right-bold$$', h: '1'}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
@@ -91,9 +91,9 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Ctl+ C
   - {t: Ctl+ V, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:keyboard-space$$
   - $$mdi:arrow-left-bold$$
+  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:arrow-right-bold$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -144,9 +144,9 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - RW
+  - {t: RW, type: held}
   - FF
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
