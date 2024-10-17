@@ -121,7 +121,7 @@
 
         layer_0 {
             bindings = <
-&lt 3 ESC             &kp Q  &kp W      &kp E      &kp R            &kp T      &kp Y       &kp U        &kp I      &kp O      &kp P     &mt LEFT_SHIFT MINUS
+&lt 4 ESC             &kp Q  &kp W      &kp E      &kp R            &kp T      &kp Y       &kp U        &kp I      &kp O      &kp P     &mt LEFT_SHIFT MINUS
 &kp ENTER             &kp A  &kp S      &kp D      &kp F            &kp G      &kp H       &kp J        &kp K      &kp L      &kp SEMI  &kp SQT
 &kp CAPS              &kp Z  &kp X      &kp C      &kp V            &kp B      &kp N       &kp M        &kp COMMA  &kp DOT    &kp FSLH  &kp BSLH
                              &kp LC(C)  &kp LC(V)  &lt 1 LEFT       &kp SPACE  &kp BSPC    &lt 2 RIGHT  &kp LBKT   &kp RBKT
@@ -131,21 +131,21 @@
 
         layer_1 {
             bindings = <
-&kp TAB    &kp PLUS         &kp N7     &kp N8          &kp N9    &kp KP_SLASH  &kp F12         &kp F7     &kp F8  &kp F9  &kp F10  &kp F11
-&kp ENTER  &kp MINUS        &kp N4     &kp N5          &kp N6    &kp KP_DOT    &none           &kp F4     &kp F5  &kp F6  &none    &none
-&kp ENTER  &kp KP_MULTIPLY  &kp N1     &kp N2          &kp N3    &kp N0        &none           &kp F1     &kp F2  &kp F3  &none    &none
-                            &kp LC(C)  &mt LALT LC(V)  &kp LEFT  &kp SPACE     &kp BSPC        &kp RIGHT  &none   &none
-                            &trans     &to 0           &to 0     &trans        &kp UP          &kp DOWN   &none   &none
+&none                     &none           &none              &none             &none          &out OUT_USB  &out OUT_USB    &none          &none          &none          &none         &none
+&none                     &kp NUMBER_1    &kp NUMBER_2       &kp NUMBER_3      &kp NUMBER_4   &kp NUMBER_5  &kp NUMBER_6    &kp NUMBER_7   &kp NUMBER_8   &kp NUMBER_9   &kp NUMBER_0  &none
+&none                     &none           &none              &none             &none          &out OUT_BLE  &out OUT_BLE    &none          &none          &none          &none         &none
+                          &none           &none              &none             &none          &none         &none           &none          &none
+                          &none           &none              &none             &none          &none         &none           &none          &none
             >;
         };
 
         layer_2 {
             bindings = <
-&none                     &kp NUMBER_1    &kp NUMBER_2       &kp NUMBER_3      &kp NUMBER_4   &kp NUMBER_5  &kp NUMBER_6    &kp NUMBER_7   &kp NUMBER_8   &kp NUMBER_9   &kp NUMBER_0  &bt BT_CLR
-&sys_reset                &none           &none              &none             &none          &out OUT_USB  &out OUT_USB    &none          &none          &none          &none         &sys_reset
-&dongle_bootload_macro    &none           &none              &none             &none          &out OUT_BLE  &out OUT_BLE    &none          &none          &none          &none         &none
-                          &none           &none              &none             &none          &none         &none           &none          &none
-                          &none           &none              &none             &none          &none         &none           &none          &none
+&kp F7     &kp F8    &kp F9    &kp F10   &kp F11   &kp F12           &kp TAB    &kp PLUS         &kp N7     &kp N8          &kp N9    &kp KP_SLASH  
+&none      &kp F4    &kp F5    &kp F6    &none     &none             &kp ENTER  &kp MINUS        &kp N4     &kp N5          &kp N6    &kp KP_DOT    
+&none      &kp F1    &kp F2    &kp F3    &none     &none             &kp ENTER  &kp KP_MULTIPLY  &kp N1     &kp N2          &kp N3    &kp N0        
+                            &kp LC(C)  &mt LALT LC(V)  &kp LEFT  &kp SPACE     &kp BSPC        &kp RIGHT  &none   &none
+                            &trans     &to 0           &to 0     &trans        &kp UP          &kp DOWN   &none   &none
             >;
         };
 
