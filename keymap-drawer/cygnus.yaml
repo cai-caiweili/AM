@@ -185,9 +185,9 @@ layers:
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - '&dongle_bootload_macro'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - EP TOG
-  - EP ON
-  - EP OFF
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - OUT BLE
   - OUT BLE
   - {t: '$$mdi:minus-circle-outline$$', type: none}
