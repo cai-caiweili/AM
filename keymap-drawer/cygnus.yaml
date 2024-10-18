@@ -11,7 +11,7 @@ layers:
   - I
   - O
   - P
-  - {t: '-', h: '$$mdi:apple-keyboard-shift$$', s: _}
+  - {t: \, s: '|'}
   - {t: '`', s: '~'}
   - A
   - S
@@ -113,10 +113,10 @@ layers:
   - F11
   - F12
   - KP MULTIPLY
-  - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
-  - {t: '9', s: (}
-  - {t: '-', s: _}
+  - KP 7
+  - KP 8
+  - KP 9
+  - KP MINUS
   - LOCKING NUM
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F4
@@ -125,9 +125,9 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - KP PLUS
-  - {t: '4', s: $}
-  - {t: '5', s: '%'}
-  - {t: '6', s: ^}
+  - KP 4
+  - KP 5
+  - KP 6
   - KP SLASH
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -138,8 +138,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '-', s: _}
   - KP 1
-  - {t: '2', s: '@'}
-  - {t: '3', s: '#'}
+  - KP 2
+  - KP 3
   - {t: '=', s: +}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - Ctl+ C
@@ -148,7 +148,7 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:arrow-right-bold$$', type: held}
-  - {t: '0', s: )}
+  - KP 0
   - KP DOT
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '0', h: toggle}
