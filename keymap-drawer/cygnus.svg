@@ -369,10 +369,11 @@ rect.held, rect.combo.held {
 <use href="#mdi:apple-keyboard-shift" xlink:href="#mdi:apple-keyboard-shift" x="-8" y="9" height="15" width="15.0" class="key hold glyph mdi:apple-keyboard-shift"/>
 <text x="0" y="-24" class="key shifted">_</text>
 </g>
-<g transform="translate(28, 84)" class="key enter keypos-12">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key enter side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key enter"/>
-<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="-9" y="-13" height="18" width="18.0" class="key enter tap glyph mdi:keyboard-return"/>
+<g transform="translate(28, 84)" class="key keypos-12">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap">`</text>
+<text x="0" y="-24" class="key shifted">~</text>
 </g>
 <g transform="translate(84, 84)" class="key keypos-13">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -529,7 +530,7 @@ rect.held, rect.combo.held {
 <g transform="translate(738, 249) rotate(-30.0)" class="key keypos-41">
 <rect rx="6" ry="6" x="-26" y="-47" width="52" height="94" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-45" width="40" height="82" class="key"/>
-<use href="#mdi:arrow-right-bold" xlink:href="#mdi:arrow-right-bold" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:arrow-right-bold"/>
+<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:keyboard-return"/>
 <a href="#x_x">
 <text x="0" y="45" class="key hold layer-activator">2</text>
 </a></g>
@@ -566,8 +567,7 @@ rect.held, rect.combo.held {
 <g transform="translate(399, 380) rotate(30.0)" class="key keypos-47">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<text x="0" y="-4" class="key tap">`</text>
-<text x="0" y="-24" class="key shifted">~</text>
+<use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:keyboard-tab"/>
 </g>
 <g transform="translate(637, 380) rotate(-30.0)" class="key keypos-48">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -582,11 +582,10 @@ rect.held, rect.combo.held {
 <g transform="translate(672, 441) rotate(-30.0)" class="key keypos-50">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<text x="0" y="-4" class="key tap">=</text>
+<use href="#mdi:arrow-right-bold" xlink:href="#mdi:arrow-right-bold" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:arrow-right-bold"/>
 <a href="#x_x">
 <text x="0" y="24" class="key hold layer-activator">4</text>
-</a><text x="0" y="-24" class="key shifted">+</text>
-</g>
+</a></g>
 <g transform="translate(739, 418) rotate(-30.0)" class="key keypos-51">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>

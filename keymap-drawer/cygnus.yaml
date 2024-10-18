@@ -12,7 +12,7 @@ layers:
   - O
   - P
   - {t: '-', h: '$$mdi:apple-keyboard-shift$$', s: _}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '`', s: '~'}
   - A
   - S
   - D
@@ -41,16 +41,16 @@ layers:
   - {t: '$$mdi:arrow-left-bold$$', h: '1'}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:arrow-right-bold$$', h: '2'}
+  - {t: '$$mdi:keyboard-return$$', h: '2'}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:backspace-reverse-outline$$', h: '3'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '`', s: '~'}
+  - $$mdi:keyboard-tab$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:apple-keyboard-control$$
-  - {t: '=', h: '4', s: +}
+  - {t: '$$mdi:arrow-right-bold$$', h: '4'}
   - $$mdi:arrow-up-bold$$
   '1':
   - $$mdi:keyboard-tab$$
