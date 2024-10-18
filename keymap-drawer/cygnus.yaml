@@ -112,7 +112,7 @@ layers:
   - F10
   - F11
   - F12
-  - kp KP MULTIPLY
+  - KP MULTIPLY
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
@@ -147,7 +147,8 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: RIGHT kp 0, type: held}
+  - {t: '$$mdi:arrow-right-bold$$', type: held}
+  - {t: '0', s: )}
   - KP DOT
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '0', h: toggle}
@@ -200,8 +201,8 @@ layers:
   - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - PG UP
-  - PG DN
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - $$mdi:mouse-scroll-wheel$$
