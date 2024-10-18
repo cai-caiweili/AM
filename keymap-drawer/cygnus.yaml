@@ -117,14 +117,14 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '-', s: _}
-  - LNLCK
+  - LOCKING NUM
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F4
   - F5
   - F6
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - +
+  - KP PLUS
   - {t: '4', s: $}
   - {t: '5', s: '%'}
   - {t: '6', s: ^}
@@ -137,7 +137,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '-', s: _}
-  - {t: '1', s: '!'}
+  - KP 1
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
   - {t: '=', s: +}
