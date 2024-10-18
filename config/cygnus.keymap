@@ -125,26 +125,26 @@
 &kp GRAVE     &kp A  &kp S      &kp D      &kp F            &kp G             &kp H         &kp J         &kp K         &kp L        &kp SEMI  &kp SQT
 &kp CAPS      &kp Z  &kp X      &kp C      &kp V            &kp B             &kp N         &kp M         &kp COMMA     &kp DOT      &kp FSLH  &kp BSLH
                                 &kp LC(C)  &kp LC(V)        &lt 1 DEL         &kp SPACE     &kp BSPC      &lt 2 ENTER   &kp LBKT     &kp RBKT
-                                &kp LALT   &lt 3 LEFT       &kp LSHFT   &kp TAB       &kp UP        &kp RCTRL     &lt 4 RIGHT  &kp DOWN  
+                                &kp LALT   &lt 3 LEFT       &kp LSHFT         &kp TAB       &kp UP        &kp RCTRL     &lt 4 RIGHT  &kp DOWN  
             >;
         };
 
         layer_1 {
             bindings = <
-&kp TAB        &none           &none              &none             &none          &out OUT_USB                &out OUT_USB    &none          &none          &none          &none         &none
-&none          &kp NUMBER_1    &kp NUMBER_2       &kp NUMBER_3      &kp NUMBER_4   &kp NUMBER_5                &kp NUMBER_6    &kp NUMBER_7   &kp NUMBER_8   &kp NUMBER_9   &kp NUMBER_0  &none
-&none          &none           &none              &none             &none          &out OUT_BLE                &out OUT_BLE    &none          &none          &none          &none         &none
-                               &kp PG_UP          &kp PG_DN         &none          &none                       &none             &none           &none          &none
-                               &none              &none             &none          &none                       &none             &none           &none          &none
+&kp TAB        &none           &none              &none             &none          &out OUT_USB        &out OUT_USB    &none          &none          &none          &none         &none
+&none          &kp NUMBER_1    &kp NUMBER_2       &kp NUMBER_3      &kp NUMBER_4   &kp NUMBER_5        &kp NUMBER_6    &kp NUMBER_7   &kp NUMBER_8   &kp NUMBER_9   &kp NUMBER_0  &none
+&none          &none           &none              &none             &none          &out OUT_BLE        &out OUT_BLE    &none          &none          &none          &none         &none
+                               &kp PG_UP          &kp PG_DN         &none          &none               &none           &none          &none          &none
+                               &none              &none             &none          &none               &none           &none          &none          &none
             >;
         };
 
         layer_2 {
             bindings = <
-&kp F7     &kp F8    &kp F9      &kp F10          &kp F11   &kp F12                   &kp kp KP_MULTIPLY        &kp N7         &kp N8          &kp N9        &kp MINUS         &kp LNLCK
+&kp F7     &kp F8    &kp F9      &kp F10          &kp F11   &kp F12                   &kp KP_MULTIPLY           &kp N7         &kp N8          &kp N9        &kp MINUS         &kp LNLCK
 &none      &kp F4    &kp F5      &kp F6           &none     &none                     &kp PLUS                  &kp N4         &kp N5          &kp N6        &kp KP_SLASH      &kp DEL
 &none      &kp F1    &kp F2      &kp F3           &none     &none                     &kp MINUS                 &kp N1         &kp N2          &kp N3        &kp EQUAL         &kp ENTER 
-                     &kp LC(C)   &mt LALT LC(V)   &kp LEFT  &kp SPACE                 &kp BSPC                  &kp RIGHT      kp N0           &kp KP_DOT
+                     &kp LC(C)   &mt LALT LC(V)   &kp LEFT  &kp SPACE                 &kp BSPC                  &kp RIGHT      &kp N0          &kp KP_DOT
                      &trans      &to 0            &to 0     &trans                    &kp UP                    &kp DOWN       &none           &none
             >;
         };
@@ -154,7 +154,7 @@
 &kp C_VOL_UP  &kp C_VOL_DN  &kp AMPS  &kp STAR   &kp LPAR   &kp RPAR   &none  &msc SCRL_UP    &mmv MOVE_UP    &msc SCRL_DOWN     &none  &none
 &kp C_BRI_UP  &kp C_BRI_DN  &kp DLLR  &kp PRCNT  &kp CARET  &kp UNDER  &none  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT    &none  &none
 &none         &kp GRAVE     &kp EXCL  &kp AT     &kp HASH   &kp EQUAL  &none  &msc SCRL_LEFT  &none           &msc SCRL_RIGHT    &none  &none
-                            &none     &none      &mkp LCLK  &mkp RCLK  &none  &none           &kp PG_UP       &kp PG_DN
+                            &none     &none      &mkp LCLK  &mkp RCLK  &none  &none           &none           &none
                             &none     &none      &mkp MCLK  &none      &none  &none           &none           &none
             >;
         };
