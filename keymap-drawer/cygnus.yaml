@@ -46,7 +46,7 @@ layers:
   - {t: ']', s: '}'}
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:arrow-left-bold$$', h: '3'}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:apple-keyboard-control$$'}
+  - $$mdi:apple-keyboard-shift$$
   - $$mdi:keyboard-tab$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:apple-keyboard-control$$
