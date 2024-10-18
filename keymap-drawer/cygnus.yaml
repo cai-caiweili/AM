@@ -38,20 +38,20 @@ layers:
   - {t: \, s: '|'}
   - Ctl+ C
   - Ctl+ V
-  - {t: '$$mdi:arrow-left-bold$$', h: '1'}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: '1'}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', h: '2'}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:backspace-reverse-outline$$', h: '3'}
+  - {t: '$$mdi:arrow-left-bold$$', h: '3'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:keyboard-tab$$
-  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-up-bold$$
   - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:arrow-right-bold$$', h: '4'}
-  - $$mdi:arrow-up-bold$$
+  - $$mdi:arrow-down-bold$$
   '1':
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
