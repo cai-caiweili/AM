@@ -155,7 +155,7 @@
 &kp C_BRI_UP  &kp C_BRI_DN  &kp DLLR  &kp PRCNT   &kp CARET  &kp UNDER    &none       &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT    &none  &none
 &none         &kp GRAVE     &kp EXCL  &kp AT      &kp HASH   &kp EQUAL    &none       &msc SCRL_LEFT  &none           &msc SCRL_RIGHT    &none  &none
                             &none     &none       &none      &none        &mkp LCLK   &mkp RCLK       &none           &none
-                            &none     &kp LSHFT   &mkp MCLK  &none        &none       &mkp MCLK       &none           &none
+                            &none     &kp LSHFT   &mkp MCLK  &kp LSHFT    &none       &mkp MCLK       &none           &none
             >;
         };
 
