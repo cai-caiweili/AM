@@ -125,7 +125,7 @@
 &kp GRAVE     &kp A  &kp S      &kp D      &kp F            &kp G             &kp H           &kp J         &kp K         &kp L        &kp SEMI  &kp SQT
 &kp CAPS      &kp Z  &kp X      &kp C      &kp V            &kp B             &kp N           &kp M         &kp COMMA     &kp DOT      &kp FSLH  &kp BSLH
                                 &kp LC(C)  &kp LC(V)        &lt 3 DEL         &lt 1 SPACE     &lt 2 BSPC    &lt 4 ENTER   &kp LBKT     &kp RBKT
-                                &kp LALT   &kp LCTRL       &kp LSHFT         &kp TAB          &kp UP        &kp LEFT      &kp RIGHT    &kp DOWN  
+                                &kp LALT   &kp LSHFT        &kp LCTRL     &kp TAB          &kp UP        &kp LEFT      &kp RIGHT    &kp DOWN  
             >;
         };
 
