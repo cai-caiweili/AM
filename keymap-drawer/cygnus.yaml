@@ -40,8 +40,8 @@ layers:
   - Ctl+ V
   - {t: '$$mdi:backspace-reverse-outline$$', h: '3'}
   - {t: '$$mdi:keyboard-space$$', h: '1'}
-  - {t: '$$mdi:backspace$$', h: '2'}
-  - {t: '$$mdi:keyboard-return$$', h: '4'}
+  - {t: '$$mdi:backspace$$', h: '4'}
+  - {t: '$$mdi:keyboard-return$$', h: '2'}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - $$mdi:apple-keyboard-option$$
@@ -146,8 +146,8 @@ layers:
   - {t: Ctl+ V, h: '$$mdi:apple-keyboard-option$$'}
   - $$mdi:arrow-left-bold$$
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:backspace$$', type: held}
-  - $$mdi:arrow-right-bold$$
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:arrow-right-bold$$', type: held}
   - KP 0
   - KP DOT
   - {t: '$$mdi:transfer$$', type: trans}
@@ -252,8 +252,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - RW
   - FF
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
