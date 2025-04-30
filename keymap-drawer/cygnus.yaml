@@ -1,3 +1,4 @@
+layout: {zmk_keyboard: cygnus}
 layers:
   '0':
   - {t: '$$mdi:keyboard-esc$$', h: '4'}
@@ -36,8 +37,8 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: \, s: '|'}
-  - Ctl+ C
-  - Ctl+ V
+  - Ctl+C
+  - Ctl+V
   - {t: '$$mdi:backspace-reverse-outline$$', h: '3'}
   - {t: '$$mdi:keyboard-space$$', h: '1'}
   - {t: '$$mdi:backspace$$', h: '4'}
@@ -61,7 +62,7 @@ layers:
   - OUT USB
   - OUT USB
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '8'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -142,8 +143,8 @@ layers:
   - KP 3
   - {t: '=', s: +}
   - KP EQUAL
-  - Ctl+ C
-  - {t: Ctl+ V, h: '$$mdi:apple-keyboard-option$$'}
+  - Ctl+C
+  - {t: Ctl+V, h: '$$mdi:apple-keyboard-option$$'}
   - $$mdi:arrow-left-bold$$
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:backspace$$', type: backspace}
