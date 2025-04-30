@@ -27,3 +27,4 @@ include:
     artifact-name: cygnus_peripheral_right
   - board: nice_nano_v2
     shield: settings_reset
+    
