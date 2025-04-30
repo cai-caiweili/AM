@@ -62,7 +62,7 @@ layers:
   - OUT USB
   - OUT USB
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '8'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
